@@ -1,5 +1,8 @@
 package com.skillfactory;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,17 +26,30 @@ public class Main {
 //        } else {
 //            int c = 212;
 //        }
-        int a = 1;
-        int b = switch (a){
-            case 1:
-                yield 22;
-            case 2:
-                yield 23;
-            default:
-                yield 0;
+//        int a = 34;
+//        int b = 34;
+//
+//        while (a<b)
+//            System.out.println("a= " + a++);
+//
+//
+//        do
+//            System.out.println("a= " + a++);
+//        while (a<b);
+//        int b = switch (a){
+//            case 1:
+//                yield 22;
+//            case 2:
+//                yield 23;
+//            default:
+//                yield 0;
+//
+//        };
+//        System.out.println(b);
+//        int[] arr = {1,2,3,4};
+//        int[] arr2 = new int[]{1,2,3,4};
+//        int[] arr3 = new int[20];
 
-        };
-        System.out.println(b);
 
 //        switch (a){
 //            case 1:
@@ -67,6 +83,27 @@ public class Main {
 //        System.out.println(b++);
 //        System.out.println(++b);
 
+        int[] arr = {1};
+        System.out.println(Arrays.toString(arr));
+        arr = new int[2];
+        arr[1] = 2;
+        System.out.println(Arrays.toString(arr));
+        ArrayList<String> a = new ArrayList<>();
+        a.add("ssss");
+//        for (String s : a){
+//
+//        }
+
+//        System.out.println(arr.length);
+
+        arr[0] =2;
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i]=i;
+//        }
+//
+//        for (int j: arr) {
+//            System.out.println(j);
+//        }
 
 //        byte b1 = 22;
 //        byte b2 = 129;
@@ -75,6 +112,37 @@ public class Main {
 //        System.out.println(b1);
 //        System.out.println(b2);
 //        System.out.println(b3);
+
+//        int[] arr = {1,2,3,4,5};
+//        for (int i = arr.length-1; i >=0 ; i--) {
+//
+////            if (arr[i]==3)
+////                continue;
+//
+//            System.out.println(arr[i]);
+//        }
+
+//        for (int j : arr) {
+//            System.out.println(j);
+//        }
+
+//        int[]arr1 = {};
+//
+//        String str = "dsfsdf";
+//        String str2 = new String("dsfsdf");
+//        System.out.println(str);
+//        System.out.println(str2);
+//
+//        str2 = str2.intern();
+//
+//
+//        if(str == str2)
+//            System.out.println("==");
+//        if(str.equals(str2))
+//            System.out.println("equals");
+//        if(str == "dsfsdf")
+//            System.out.println("==\"dsfsdf\"");
+//        String str2 = 'd';
 
     }
 }
